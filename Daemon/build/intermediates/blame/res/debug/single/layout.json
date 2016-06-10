@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Daemon/build/intermediates/res/merged/debug/layout/ac_main.xml",
+        "source": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Daemon/src/main/res/layout/ac_main.xml"
+    },
+    {
+        "merged": "/home/hyq/ws/tm/Android/Daemon/build/intermediates/res/merged/debug/layout/ac_main.xml",
+        "source": "/home/hyq/ws/tm/Android/Daemon/src/main/res/layout/ac_main.xml"
+    }
+]

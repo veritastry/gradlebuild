@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Pattern/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Pattern/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hyq/ws/tm/Android/Pattern/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/home/hyq/ws/tm/Android/Pattern/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

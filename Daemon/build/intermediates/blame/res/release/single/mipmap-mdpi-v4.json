@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/hyq/ws/tm/Android/Daemon/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/hyq/ws/tm/Android/Daemon/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Daemon/build/intermediates/res/merged/release/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/hyq/tools/tomcat/apache-tomcat-7.0.53/webapps/jenkins/jobs/Android/Daemon/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

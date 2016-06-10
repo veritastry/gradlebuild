@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aigestudio.daemon">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="Daemon"
+        android:supportsRtl="true"
+        android:persistent="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".services.DaemonService"
+            android:process=":service" />
+        <!--<service-->
+            <!--android:name=".services.CancelService"-->
+            <!--android:process=":service" />-->
+        <!--<service-->
+            <!--android:name=".services.ProtectService"-->
+            <!--android:process=":remote" />-->
+        <service
+            android:name=".core.DService"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:process=":service">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
